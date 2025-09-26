@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "dev:frontend": "cd client && npm run dev",
+    "dev:backend": ".\\server\\.venv\\Scripts\\python -m uvicorn server.main:app --reload --port 8000",
+    "dev:all": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "setup:backend": "cd server && .venv\\Scripts\\pip install -r requirements.txt"
+  }
+}

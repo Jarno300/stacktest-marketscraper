@@ -1,0 +1,64 @@
+# =========================
+# Node (frontend: Nuxt/Vue)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.cache/
+.nuxt/
+*.local
+
+# =========================
+# Python (backend: FastAPI)
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# SQLite (if used as dev DB)
+*.sqlite3
+*.db
+
+# =========================
+# Environment & configs
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS / IDE files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
